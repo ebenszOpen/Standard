@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/std_list_leb_height"
+          android:background="@color/std_gray_title"
+          android:gravity="center_vertical"
+          android:paddingLeft="13dip"
+          android:textAppearance="@style/Ebensz.Theme.TextContent.Invariant.Small"
+          android:textColor="@color/std_brown_82735A"
+          android:textSize="@dimen/std_text_title_size_invariant_small"/>

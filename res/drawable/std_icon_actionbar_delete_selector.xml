@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/std_icon_actionbar_delete_normal_security" android:state_activated="true" android:state_enabled="true"/>
+    <item android:drawable="@drawable/std_icon_actionbar_delete_security_disable" android:state_activated="true" android:state_enabled="false"/>
+    <item android:drawable="@drawable/std_icon_actionbar_delete_normal" android:state_enabled="true"></item>
+    <item android:drawable="@drawable/std_icon_actionbar_delete_disable" android:state_enabled="false"></item>
+
+</selector>

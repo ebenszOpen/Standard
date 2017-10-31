@@ -1,0 +1,338 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- themes -->
+    <style name="Ebensz.Theme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:popupWindowStyle">@android:style/Widget.PopupWindow</item>
+        <item name="android:listDivider">@android:drawable/divider_horizontal_bright</item>
+        <item name="android:textColorHint">@color/std_gray_cc</item>
+        <item name="android:actionBarStyle">@style/Ebensz.Theme.Actionbar</item>
+        <item name="android:actionBarSize">@dimen/std_actionbar_height</item>
+        <item name="android:actionModeSplitBackground">@null</item>
+        <item name="android:actionModeCloseButtonStyle">@style/Ebensz.Theme.ActionButton</item>
+    </style>
+
+    <style name="Ebensz.Theme.ActionButton" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="Ebensz.Theme.Light" parent="Ebensz.Theme">
+        <item name="android:actionBarStyle">@style/Ebensz.Theme.Actionbar</item>
+    </style>
+
+    <style name="Ebensz.Theme.Actionbar" parent="@android:style/Widget.ActionBar">
+        <item name="android:displayOptions">showCustom</item>
+    </style>
+
+    <style name="Ebensz.Theme.Actionbar.Light" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:displayOptions">showCustom</item>
+    </style>
+
+    <style name="Ebensz.Theme.Dialog" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:windowSoftInputMode">stateAlwaysHidden|adjustResize</item>
+    </style>
+
+    <!-- text title style -->
+    <style name="Ebensz.Theme.TextTitle.Invariant" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/std_text_title_size_invariant</item>
+        <item name="android:textColor">@color/std_white_sel</item>
+    </style>
+
+    <style name="Ebensz.Theme.TextTitle.Invariant.Large" parent="@style/Ebensz.Theme.TextTitle.Invariant">
+        <item name="android:textSize">@dimen/std_text_title_size_invariant_large</item>
+    </style>
+
+    <style name="Ebensz.Theme.TextTitle.Invariant.Medium" parent="@style/Ebensz.Theme.TextTitle.Invariant">
+        <item name="android:textSize">@dimen/std_text_title_size_invariant_medium</item>
+    </style>
+
+    <style name="Ebensz.Theme.TextTitle.Invariant.Small" parent="@style/Ebensz.Theme.TextTitle.Invariant">
+        <item name="android:textSize">@dimen/std_text_title_size_invariant_small</item>
+    </style>
+
+    <style name="Ebensz.Theme.TextTitle.Invariant.Mini" parent="@style/Ebensz.Theme.TextTitle.Invariant">
+        <item name="android:textSize">@dimen/std_text_title_size_invariant_mini</item>
+    </style>
+    <!-- text subtitle style -->
+    <style name="Ebensz.Theme.TextSubTitle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/std_text_subtitle_size_invariant</item>
+        <item name="android:textColor">@color/std_gray_6c_sel</item>
+    </style>
+
+    <style name="Ebensz.Theme.TextSubTitle.Invariant" parent="@style/Ebensz.Theme.TextSubTitle">
+        <item name="android:textSize">@dimen/std_text_subtitle_size_invariant</item>
+    </style>
+
+    <style name="Ebensz.Theme.Dark.TextSubTitle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/std_text_subtitle_size_invariant</item>
+        <item name="android:textColor">@color/std_white_sel</item>
+    </style>
+
+    <style name="Ebensz.Theme.Dark.TextSubTitle.Invariant" parent="@style/Ebensz.Theme.Dark.TextSubTitle">
+        <item name="android:textSize">@dimen/std_text_subtitle_size_invariant</item>
+    </style>
+
+    <!-- text content light style -->
+    <style name="Ebensz.Theme.TextContent" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/std_text_content_size</item>
+        <item name="android:textColor">@color/std_black_sel</item>
+    </style>
+
+    <style name="Ebensz.Theme.TextContent.menuItem" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/std_text_content_size_medium</item>
+        <item name="android:textColor">#327bc7</item>
+    </style>
+
+    <style name="Ebensz.Theme.TextContent.Large" parent="@style/Ebensz.Theme.TextContent">
+        <item name="android:textSize">@dimen/std_text_content_size_large</item>
+    </style>
+
+    <style name="Ebensz.Theme.TextContent.Medium" parent="@style/Ebensz.Theme.TextContent">
+        <item name="android:textSize">@dimen/std_text_content_size_medium</item>
+    </style>
+
+    <style name="Ebensz.Theme.TextContent.Small" parent="@style/Ebensz.Theme.TextContent">
+        <item name="android:textSize">@dimen/std_text_content_size_small</item>
+    </style>
+
+    <style name="Ebensz.Theme.TextContent.Invariant" parent="@style/Ebensz.Theme.TextContent">
+        <item name="android:textSize">@dimen/std_text_content_size_invariant</item>
+    </style>
+
+    <style name="Ebensz.Theme.TextContent.Invariant.Large" parent="@style/Ebensz.Theme.TextContent.Invariant">
+        <item name="android:textSize">@dimen/std_text_content_size_invariant_large</item>
+    </style>
+
+    <style name="Ebensz.Theme.TextContent.Invariant.Medium" parent="@style/Ebensz.Theme.TextContent.Invariant">
+        <item name="android:textSize">@dimen/std_text_content_size_invariant_medium</item>
+    </style>
+
+    <style name="Ebensz.Theme.TextContent.Invariant.Small" parent="@style/Ebensz.Theme.TextContent.Invariant">
+        <item name="android:textSize">@dimen/std_text_content_size_invariant_small</item>
+    </style>
+
+    <!-- text content dark style -->
+    <style name="Ebensz.Theme.Dark.TextContent" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/std_text_content_size</item>
+        <item name="android:textColor">@color/std_white_sel</item>
+    </style>
+
+    <style name="Ebensz.Theme.Dark.TextContent.Large" parent="@style/Ebensz.Theme.Dark.TextContent">
+        <item name="android:textSize">@dimen/std_text_content_size_large</item>
+    </style>
+
+    <style name="Ebensz.Theme.Dark.TextContent.Medium" parent="@style/Ebensz.Theme.Dark.TextContent">
+        <item name="android:textSize">@dimen/std_text_content_size_medium</item>
+    </style>
+
+    <style name="Ebensz.Theme.Dark.TextContent.Small" parent="@style/Ebensz.Theme.Dark.TextContent">
+        <item name="android:textSize">@dimen/std_text_content_size_small</item>
+    </style>
+
+    <style name="Ebensz.Theme.Dark.TextContent.Invariant" parent="@style/Ebensz.Theme.Dark.TextContent">
+        <item name="android:textSize">@dimen/std_text_content_size_invariant</item>
+    </style>
+
+    <style name="Ebensz.Theme.Dark.TextContent.Invariant.Large" parent="@style/Ebensz.Theme.Dark.TextContent.Invariant">
+        <item name="android:textSize">@dimen/std_text_content_size_invariant_large</item>
+    </style>
+
+    <style name="Ebensz.Theme.Dark.TextContent.Invariant.Medium" parent="@style/Ebensz.Theme.Dark.TextContent.Invariant">
+        <item name="android:textSize">@dimen/std_text_content_size_invariant_medium</item>
+    </style>
+
+    <style name="Ebensz.Theme.Dark.TextContent.Invariant.Small" parent="@style/Ebensz.Theme.Dark.TextContent.Invariant">
+        <item name="android:textSize">@dimen/std_text_content_size_invariant_small</item>
+    </style>
+
+    <!-- text content other colors style -->
+    <style name="Ebensz.Theme.TextContent.Red" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/std_text_content_size</item>
+        <item name="android:textColor">@color/std_red_sel</item>
+    </style>
+
+    <style name="Ebensz.Theme.TextContent.Gold.Small" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/std_text_content_size_small</item>
+        <item name="android:textColor">@color/std_gold_sel</item>
+    </style>
+
+    <style name="Ebensz.Theme.TextContent.Gray80" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/std_text_content_size</item>
+        <item name="android:textColor">@color/std_gray_80_sel</item>
+    </style>
+
+    <style name="Ebensz.Theme.TextContent.Gray80.Small" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/std_text_content_size_small</item>
+        <item name="android:textColor">@color/std_gray_80_sel</item>
+    </style>
+
+    <style name="Ebensz.Theme.TextContent.Gray80.Invariant" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/std_text_content_size_invariant</item>
+        <item name="android:textColor">@color/std_gray_80_sel</item>
+    </style>
+
+    <style name="Ebensz.Theme.TextContent.Gray80.Invariant.Small" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/std_text_content_size_invariant_small</item>
+        <item name="android:textColor">@color/std_gray_80_sel</item>
+    </style>
+
+    <!-- other layout style -->
+    <style name="Ebensz.Theme.ContentDefult">
+        <item name="android:paddingLeft">@dimen/std_content_sides_margin</item>
+        <item name="android:paddingRight">@dimen/std_content_sides_margin</item>
+    </style>
+
+    <style name="Ebensz_Theme_ActionBar_MenuBtn" parent="Ebensz.Theme.ContentDefult">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/std_actionbar_button_height</item>
+        <item name="android:background">@drawable/std_btn_actionbar_menu</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxWidth">@dimen/std_actionbar_button_maxwidth</item>
+        <item name="android:minWidth">@dimen/std_actionbar_button_minwidth</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">@style/Ebensz.Theme.TextTitle.Invariant.Medium</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/std_content_sides_margin</item>
+        <item name="android:layout_marginRight">@dimen/std_content_sides_margin</item>
+    </style>
+
+    <style name="Ebensz_Theme_ActionBar_MenuBtn_Light" parent="Ebensz_Theme_ActionBar_MenuBtn">
+        <item name="android:background">@drawable/std_btn_actionbar_menu_light</item>
+        <item name="android:textColor">@color/std_black_sel</item>
+    </style>
+
+    <style name="Ebensz_Theme_ActionBar_TextView">
+        <item name="android:textAppearance">@style/Ebensz.Theme.TextTitle.Invariant</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawableBottom">@null</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="Ebensz_Theme_ImageBtn_Background">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/std_bg_image_button</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="Ebensz_Theme_ActionBar_ImageView">
+        <item name="android:layout_width">@dimen/std_actionbar_button_maxwidth</item>
+        <item name="android:layout_height">@dimen/std_actionbar_imageview_side</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="Ebensz_Theme_ActionBar_ImageView_Light" parent="Ebensz_Theme_ImageBtn_Background">
+        <item name="android:layout_width">@dimen/std_actionbar_imageview_side</item>
+        <item name="android:layout_height">@dimen/std_actionbar_imageview_side</item>
+    </style>
+
+    <style name="Ebensz.Theme.LabText" parent="@style/Ebensz.Theme.TextTitle.Invariant">
+        <item name="android:textColor">@color/std_lab_text_color</item>
+    </style>
+
+    <style name="Ebensz.Theme.LabText.Off" parent="@style/Ebensz.Theme.LabText"></style>
+
+    <style name="Ebensz_Theme_ToolBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/std_toolbar_height</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+
+    <style name="Ebensz.Theme.ListIttem.Twoline" parent="@style/Ebensz.Theme.ContentDefult">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:minHeight">@dimen/std_item_twolines_min_height_general</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Ebensz.Theme.ListIttem.Twoline.Kaiti" parent="@style/Ebensz.Theme.ContentDefult">
+        <item name="android:paddingBottom">@dimen/std_item_twolines_padding_bottom_top</item>
+        <item name="android:paddingTop">@dimen/std_item_twolines_padding_bottom_top</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:minHeight">@dimen/std_item_twolines_min_height_kaiti</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Ebensz.Theme.ListIttem.Twoline.Heiti" parent="@style/Ebensz.Theme.ContentDefult">
+        <item name="android:paddingBottom">@dimen/std_item_twolines_padding_bottom_top</item>
+        <item name="android:paddingTop">@dimen/std_item_twolines_padding_bottom_top</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:minHeight">@dimen/std_item_twolines_min_height_kaiti</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:fontFamily">heiti</item>
+    </style>
+
+    <style name="Ebensz.Theme.ListIttem.Twoline.Large" parent="@style/Ebensz.Theme.ContentDefult">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:minHeight">@dimen/std_item_twolines_min_height_large</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Ebensz.Theme.ListIttem.Oneline" parent="@style/Ebensz.Theme.ContentDefult">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:minHeight">@dimen/std_item_min_height_general</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Ebensz.Theme.ListIttem.Oneline.Large" parent="@style/Ebensz.Theme.ContentDefult">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:minHeight">@dimen/std_item_min_height_large</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Ebensz.Theme.ListIttem.Threeline" parent="@style/Ebensz.Theme.ContentDefult">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:minHeight">@dimen/std_item_threelines_min_height</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Ebensz.Theme.ContentRoot">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/std_content_sides_margin</item>
+    </style>
+
+    <style name="Ebensz_Theme_EmptyView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">48dip</item>
+        <item name="android:paddingRight">48dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:textColor">@color/std_gray_80</item>
+        <item name="android:textSize">@dimen/std_text_content_size_large</item>
+    </style>
+
+    <style name="Ebensz_Theme_Switch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:thumb">@drawable/std_switch_thumb_select</item>
+        <item name="android:textOn">""</item>
+        <item name="android:textOff">""</item>
+        <item name="android:track">@drawable/std_switch_thumb_select</item>
+    </style>
+
+    <style name="Ebensz_Theme_Editext" parent="@style/Ebensz.Theme.ContentDefult">
+        <item name="android:drawablePadding">@dimen/std_content_sides_margin</item>
+        <item name="android:background">@drawable/std_bg_edittext</item>
+        <item name="android:minHeight">@dimen/std_edit_view_height</item>
+        <item name="android:textAppearance">@style/Ebensz.Theme.TextContent.Medium</item>
+        <item name="android:textColorHint">@color/std_gray_cc</item>
+    </style>
+
+    <style name="Ebensz_Theme_SpinnerStyle" parent="android:style/Widget.ListView.DropDown">
+        <item name="android:divider">#dcdcdc</item>
+        <item name="android:dividerHeight">2px</item>
+    </style>
+
+</resources>

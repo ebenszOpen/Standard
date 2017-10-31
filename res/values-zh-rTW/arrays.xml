@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="std_weekdays">
+        <item>週一</item>
+        <item>週二</item>
+        <item>週三</item>
+        <item>週四</item>
+        <item>週五</item>
+        <item>週六</item>
+        <item>週日</item>
+    </string-array>
+
+    <string-array name="std_date_formats" formatted="false">
+        <item>%02d:%02d</item>
+        <item>上午%s:%02d</item>
+        <item>下午%s:%02d</item>
+        <item>%02d-%02d</item>
+        <item>%04d-%02d-%02d</item>
+        <item>%02d月%02d日</item>
+        <item>%04d年%02d月%02d日</item>
+    </string-array>
+
+    <string-array name="std_time_formats" formatted="false">
+        <item>%d天%d小時%d分%d秒</item>
+        <item>%d小時%d分%d秒</item>
+        <item>%d分%d秒</item>
+        <item>%d秒</item>
+    </string-array>
+
+    <string-array name="std_harass_formats" formatted="false" >
+        <item>我已標記為%s</item>
+        <item>%d人標記為%s</item>
+        <item>我已举报为%s</item>
+    </string-array>
+</resources>

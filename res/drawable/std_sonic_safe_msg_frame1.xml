@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="false">
+    <item android:drawable="@drawable/std_sonic_msg_normal_one_safe" android:duration="300" />
+    <item android:drawable="@drawable/std_sonic_msg_normal_two_safe" android:duration="300" />
+    <item android:drawable="@drawable/std_sonic_msg_normal_three_safe" android:duration="300" />
+    <item android:drawable="@drawable/std_sonic_msg_normal_four_safe" android:duration="300" />
+    <item android:drawable="@drawable/std_sonic_msg_normal_five_safe" android:duration="300" />
+    <item android:drawable="@drawable/std_sonic_msg_normal_six_safe" android:duration="300" />
+    <item android:drawable="@drawable/std_sonic_msg_normal_seven_safe" android:duration="300" />
+</animation-list>

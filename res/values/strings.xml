@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- use for day -->
+    <string name="std_year">year</string>
+    <string name="std_month">month</string>
+    <string name="std_day">day</string>
+    <string name="std_hour">hour</string>
+    <string name="std_minute">minute</string>
+    <string name="std_second">second</string>
+    <string name="std_week">week</string>
+    <string name="std_monday">Monday</string>
+    <string name="std_tuesday">Tuesday</string>
+    <string name="std_wednesday">Wednesday</string>
+    <string name="std_thursday">Thursday</string>
+    <string name="std_friday">Friday</string>
+    <string name="std_saturday">Saturday</string>
+    <string name="std_sunday">Sunday</string>
+
+    <!-- use for button -->
+    <string name="std_confirm">OK</string>
+    <string name="std_cancel">Cancel</string>
+    <string name="std_delete">Delete</string>
+    <string name="std_back">Back</string>
+    <string name="std_complete">Finish</string>
+    <string name="std_save">Save</string>
+    <string name="std_add_black_list">Block</string>
+    <string name="std_actionbar_selected_count">%d item(s)</string>
+    <string name="std_selected_all">All</string>
+    <string name="std_unselected_all">None</string>
+    <string name="std_search">Search</string>
+
+    <!-- usr for fontFamily -->
+    <string name="std_fontfamily_35">qh35</string>
+    <string name="std_fontfamily_40">qh40</string>
+    <string name="std_fontfamily_45">qh45</string>
+    <string name="std_fontfamily_50">qh50</string>
+    <string name="std_fontfamily_55">qh55</string>
+    <string name="std_fontfamily_60">qh60</string>
+    <string name="std_fontfamily_65">qh65</string>
+
+    <string name="std_title_has_not_find_ukey_signal">No Ukey signal</string>
+    <string name="std_hint_for_user_check_ukey">Bring the Ukey closer and check if it is power on\nand full of power</string>
+
+    <string name="std_encryption_calls">Encrypted Phone</string>
+
+    <string name="std_did_not_throught">Failed</string>
+    <string name="std_had_reject">Declined</string>
+    <string name="std_had_cancel">Canceled</string>
+    <string name="std_ring_count">Rang %1$s time(s)</string>
+    <string name="std_vip_reject">VIP model reject</string>
+    <string name="std_acquaintance_reject">Acquaintances mode reject</string>
+    <string name="std_call_reject">Be intercepted</string>
+    <string name="std_call_miss">Missed calls</string>
+    <string name="std_call_incoming">Incoming calls</string>
+    <string name="std_call_outgoing">Outgoing calls</string>
+
+    <string name="std_callslog_showAll">Show all</string>
+    <string name="std_callslog_delete">Clear call log</string>
+
+    <string name="std_save_exist_contact">Add to Existing Contact</string>
+    <string name="std_save_new_contact">Create New Contact</string>
+    <string name="std_add_blacklist">Block</string>
+    <string name="std_cancel_blacklist">Unblock</string>
+    <string name="std_send_sms">Send Message</string>
+    <string name="std_dial">Dial</string>
+    <string name="std_pack_up">Pack up</string>
+    <string name="std_public">Public security case</string>
+    <string name="std_menu_item_send_again">Send Again</string>
+
+    <string name="std_menu_reset_default_sms">Click "reset default SMS"</string>
+    <string name="network_disable">The internet is unavailable</string>
+    <string name="connect_network_and_retry">Please connect the network and try again</string>
+</resources>

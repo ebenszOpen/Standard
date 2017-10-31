@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- These textSize would change with system textSize -->
+    <dimen name="std_text_content_size_large">20sp</dimen>
+    <dimen name="std_text_content_size">18sp</dimen>
+    <dimen name="std_text_content_size_medium">16sp</dimen>
+    <dimen name="std_text_content_size_small">12sp</dimen>
+
+    <dimen name="std_text_content_kaiti_size_large">32sp</dimen>
+    <dimen name="std_text_content_kaiti_size_14">14sp</dimen>
+    <dimen name="std_text_content_kaiti_size_16">16sp</dimen>
+    <dimen name="std_text_content_kaiti_size_24">24sp</dimen>
+    <dimen name="std_text_content_kaiti_size_26">26sp</dimen>
+    <dimen name="std_text_content_kaiti_size_28">28sp</dimen>
+    <dimen name="std_text_content_kaiti_size">22sp</dimen>
+    <dimen name="std_text_content_kaiti_size_medium">20sp</dimen>
+    <dimen name="std_text_content_kaiti_size_small">14sp</dimen>
+
+    <!-- These textSize wouldn't change with system textSize -->
+    <dimen name="std_text_title_size_invariant_large">21dp</dimen>
+    <dimen name="std_text_title_size_invariant">18dp</dimen>
+    <dimen name="std_text_title_size_invariant_medium">16dp</dimen>
+    <dimen name="std_text_title_size_invariant_small">14dp</dimen>
+    <dimen name="std_text_title_size_invariant_mini">12dp</dimen>
+
+    <dimen name="std_text_subtitle_size_invariant">12dp</dimen>
+
+    <dimen name="std_text_content_size_invariant_large">20dp</dimen>
+    <dimen name="std_text_content_size_invariant">18dp</dimen>
+    <dimen name="std_text_content_size_invariant_medium">16dp</dimen>
+    <dimen name="std_text_content_size_invariant_small">12dp</dimen>
+
+    <!-- These dimens are for all layouts -->
+    <dimen name="std_actionbar_height">72dp</dimen>
+    <dimen name="std_actionbar_side_button_width">64dp</dimen>
+    <dimen name="std_content_sides_margin">6dp</dimen>
+    <dimen name="std_content_inside_margin">3dp</dimen>
+    <dimen name="std_content_sides_margin_negative">-6dp</dimen>
+    <dimen name="std_content_inside_margin_negative">-3dp</dimen>
+
+    <!-- These dimens are for items or children -->
+    <dimen name="std_item_min_height_general">48dp</dimen>
+    <dimen name="std_item_min_height_large">52dp</dimen>
+    <dimen name="std_item_twolines_min_height_general">62dp</dimen>
+    <dimen name="std_item_twolines_min_height_kaiti">38dp</dimen>
+    <dimen name="std_item_twolines_min_height_large">72dp</dimen>
+    <dimen name="std_item_threelines_min_height">88dp</dimen>
+    <dimen name="std_item_twolines_padding_bottom_top">6dp</dimen>
+    <dimen name="std_item_icon_length_of_side">24dp</dimen>
+    <dimen name="std_item_icon_margin">12dp</dimen>
+    <dimen name="std_item_text_margin">18dp</dimen>
+    <dimen name="std_content_inside_padding">3dp</dimen>
+
+    <dimen name="std_actionbar_button_margin">16dp</dimen>
+    <dimen name="std_actionbar_button_height">27dp</dimen>
+    <dimen name="std_actionbar_button_minwidth">48dp</dimen>
+    <dimen name="std_actionbar_button_maxwidth">64dp</dimen>
+    <dimen name="std_actionbar_imageview_side">48dp</dimen>
+    <dimen name="std_actionbar_showdow_height">6dp</dimen>
+    <dimen name="std_actionbar_content_margintop">10dp</dimen>
+    <dimen name="std_actionbar_title_size">20dp</dimen>
+    <dimen name="std_actionbar_cancel_size">16dp</dimen>
+
+    <dimen name="std_defult_imageview_side">48dp</dimen>
+    <dimen name="std_dialog_margin_top">58dp</dimen>
+    <dimen name="std_list_leb_height">20dip</dimen>
+    <dimen name="std_list_leb_height2">33dip</dimen>
+    <dimen name="std_list_leb_height3">30dip</dimen>
+    <dimen name="std_toolbar_height">56dip</dimen>
+    <dimen name="std_edit_view_height">36dip</dimen>
+    <dimen name="std_list_empty_height">30dp</dimen>
+
+    <!-- These dimens are for items or mms AttachPreviewer -->
+    <dimen name="std_attach_previewer_height">108dp</dimen>
+    <dimen name="std_attach_previewer_width">67dp</dimen>
+    <dimen name="std_picture_preview_w_h">88dp</dimen>
+</resources>

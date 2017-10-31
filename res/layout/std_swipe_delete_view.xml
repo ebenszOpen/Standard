@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/std_swipe_delete_text"
+          android:layout_width="78dp"
+          android:gravity="center"
+          android:layout_height="match_parent"
+          android:background="@drawable/std_swipe_delete_ripple"
+          android:text="@string/std_delete"
+          android:textColor="#FFFFFF"
+          android:textSize="20dp"/>
+

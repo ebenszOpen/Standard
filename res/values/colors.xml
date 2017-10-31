@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="std_bg_dialog">#7f000000</drawable>
+    <drawable name="std_translucent">#00000000</drawable>
+
+    <color name="std_swipe_delete">#C43131</color>
+    <color name="std_swipe_delete_ripple">#943131</color>
+    <color name="std_black">#333333</color>
+    <color name="std_gray_50">#505050</color>
+    <color name="std_gray_6c">#6c6b6a</color>
+    <color name="std_gray_7c">#9c9ca6</color>
+    <color name="std_gray_80">#808080</color>
+    <color name="std_gray_cc">#a0a0a0</color>
+    <color name="std_gray_title">#f3f4f0</color>
+    <color name="std_white">#ddffffff</color>
+    <color name="std_white2">#ffffffff</color>
+    <color name="std_white3">#ffffff</color>
+    <color name="std_30_white">#4dffffff</color>
+    <color name="std_gold">#af8b6f</color>
+    <color name="std_red">#e02d2d</color>
+    <color name="std_red_0">#eb4c3b</color>
+    <color name="std_green_a">#29A134</color>
+    <color name="std_green_b">#008724</color>
+    <color name="std_brown">#765232</color>
+    <color name="std_green">#46bf51</color>
+    <color name="std_black_0">#000000</color>
+    <color name="std_brown_82735A">#82735A</color>
+    <color name="std_high_light_text">#E9D798</color>
+    <color name="std_disable_dark">#20ffffff</color>
+    <color name="std_disable_holo">#b5b5b5</color>
+    <color name="std_bg_contactlist">#ececec</color>
+    <color name="std_bg_listview_item">#dddddd</color>
+    <color name="std_bg_listview_item_tv">#363636</color>
+    <color name="std_encryption_calls_shawdow">#b2000000</color>
+    <color name="std_item_text_blue">#396ABF</color>
+    <color name="std_item_text_blue2">#006bc3</color>
+    <color name="std_item_text_golden">#82512c</color>
+    <color name="std_item_select">#f7f7f7</color>
+    <color name="std_actionbar_title">#F2F8FF</color>
+    <color name="std_actionbar_title_light">#003044</color>
+    <color name="std_search_bar">#efeff4</color>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- use for day -->
+    <string name="std_year">年</string>
+    <string name="std_month">月</string>
+    <string name="std_day">天</string>
+    <string name="std_hour">小時</string>
+    <string name="std_minute">分鐘</string>
+    <string name="std_second">秒</string>
+    <string name="std_week">週</string>
+    <string name="std_monday">週一</string>
+    <string name="std_tuesday">週二</string>
+    <string name="std_wednesday">週三</string>
+    <string name="std_thursday">週四</string>
+    <string name="std_friday">週五</string>
+    <string name="std_saturday">週六</string>
+    <string name="std_sunday">週日</string>
+
+    <!-- use for button -->
+    <string name="std_confirm">確認</string>
+    <string name="std_cancel">取消</string>
+    <string name="std_delete">刪除</string>
+    <string name="std_back">返回</string>
+    <string name="std_complete">完成</string>
+    <string name="std_save">保存</string>
+    <string name="std_add_black_list">加入黑名單</string>
+    <string name="std_actionbar_selected_count">已選擇 %d 項</string>
+    <string name="std_selected_all">全選</string>
+    <string name="std_unselected_all">全不選</string>
+    <string name="std_search">搜索</string>
+
+    <!-- usr for fontFamily -->
+    <string name="std_fontfamily_35">qh35</string>
+    <string name="std_fontfamily_40">qh40</string>
+    <string name="std_fontfamily_45">qh45</string>
+    <string name="std_fontfamily_50">qh50</string>
+    <string name="std_fontfamily_55">qh55</string>
+    <string name="std_fontfamily_60">qh60</string>
+    <string name="std_fontfamily_65">qh65</string>
+
+    <string name="std_title_has_not_find_ukey_signal">未檢測到U盾信號</string>
+    <string name="std_hint_for_user_check_ukey">如果U盾在附近，請檢查其是否開啟\n並電量充足</string>
+
+    <string name="std_encryption_calls">加密通話</string>
+
+    <string name="std_did_not_throught">呼出未接通</string>
+    <string name="std_had_reject">已拒接</string>
+    <string name="std_had_cancel">已取消</string>
+    <string name="std_ring_count">響鈴%1$s聲</string>
+    <string name="std_vip_reject">VIP模式攔截</string>
+    <string name="std_acquaintance_reject">熟人模式攔截</string>
+    <string name="std_call_reject">被攔截</string>
+    <string name="std_call_miss">未接來電</string>
+    <string name="std_call_incoming">呼入</string>
+    <string name="std_call_outgoing">呼出</string>
+
+    <string name="std_callslog_showAll">查看全部記錄</string>
+    <string name="std_callslog_delete">清除通話記錄</string>
+    <string name="std_save_exist_contact">新增到已有聯絡人</string>
+    <string name="std_save_new_contact">新增聯絡人</string>
+    <string name="std_add_blacklist">加入黑名單</string>
+    <string name="std_cancel_blacklist">移出黑名單</string>
+    <string name="std_send_sms">發送簡訊</string>
+    <string name="std_dial">撥號</string>
+    <string name="std_pack_up">收起</string>
+    <string name="std_public">公安立案</string>
+    <string name="std_menu_item_send_again">重新發送</string>
+
+    <string name="std_menu_reset_default_sms">系統默認簡訊被更改，請點擊重置默認簡訊</string>
+    <string name="network_disable">無可用網絡</string>
+    <string name="connect_network_and_retry">請連接網絡後重新再試</string>
+</resources>
